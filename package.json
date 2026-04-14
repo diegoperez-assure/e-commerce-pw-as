@@ -1,0 +1,16 @@
+{
+  "name": "e-commerce-pw-as",
+  "version": "1.0.0",
+  "description": "Playwright automation project for e-commerce testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
