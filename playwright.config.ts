@@ -7,8 +7,10 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   reporter: 'html',
+  globalSetup: require.resolve('./global-setup'),
   use: {
-    baseURL: 'http://127.0.0.1:3000',
+    baseURL: 'https://www.saucedemo.com/',
+    storageState: 'storageState.json',
     trace: 'on-first-retry',
   },
   projects: [
