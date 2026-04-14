@@ -9,7 +9,8 @@
     "test:ui": "playwright test --ui"
   },
   "devDependencies": {
-    "@playwright/test": "^1.40.0"
+    "@playwright/test": "^1.40.0",
+    "typescript": "^5.0.0"
   },
   "author": "",
   "license": "MIT"
