@@ -11,7 +11,7 @@ export default defineConfig({
   use: {
     baseURL: 'https://www.saucedemo.com/',
     storageState: 'storageState.json',
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
   },
   projects: [
     {
