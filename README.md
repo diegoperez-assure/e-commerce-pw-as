@@ -46,6 +46,8 @@ To enable SonarQube analysis, add the following secret to your GitHub repository
 
 - `SONAR_TOKEN`: Your SonarCloud token
 
+**Important**: Update `sonar-project.properties` with your actual SonarCloud organization name (replace `your-sonarqube-organization` with your org name).
+
 The workflow is configured to connect to SonarCloud automatically.
 
 The CI pipeline runs on every push to the `develop` and `main` branches (including merges).
