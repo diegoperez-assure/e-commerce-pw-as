@@ -44,7 +44,9 @@ This project uses GitHub Actions for continuous integration and deployment. The 
 
 To enable SonarQube analysis, add the following secret to your GitHub repository:
 
-- `SONAR_TOKEN`: Your SonarCloud token (for SonarQube Cloud, the host URL is automatically set to `https://sonarcloud.io`)
+- `SONAR_TOKEN`: Your SonarCloud token
+
+The workflow is configured to connect to SonarCloud automatically.
 
 The CI pipeline runs on every push to the `develop` and `main` branches (including merges).
 
